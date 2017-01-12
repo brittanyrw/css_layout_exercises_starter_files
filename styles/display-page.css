@@ -1,14 +1,40 @@
 section {
 	width: 800px;
 	margin: 50px auto;
+	font-size: 0;
 }
 
-.green {}
+div {
+	display: inline-block;
+	border: 1px solid black;
+}
 
-.blue {}
+.green, .blue {
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+.green {
+	background-color: green;
+}
 
-.gray {}
+.blue {
+	background-color: blue;
+}
 
-.black {}
+.gray, .black, .orange {
+	width: 33.3%;
+	height: 300px;
+}
 
-.orange {}
+.gray {
+	background-color: gray;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
